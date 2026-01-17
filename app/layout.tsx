@@ -22,7 +22,30 @@ export const metadata: Metadata = {
   title: "もの減らし動物診断 | あなたのモノとの向き合い方を発見",
   description:
     "無料のもの減らし動物診断で、あなたのモノとの向き合い方を発見。12の質問に答えるだけで、あなたに合った片付け方法やミニマリズムへのアプローチがわかります。",
-  generator: "v0.app",
+  openGraph: {
+    title: "もの減らし動物診断 | あなたのモノとの向き合い方を発見",
+    description:
+      "無料のもの減らし動物診断で、あなたのモノとの向き合い方を発見。12の質問に答えるだけで、あなたに合った片付け方法やミニマリズムへのアプローチがわかります。",
+    url: "https://minimal-diagnostic-site.netlify.app",
+    siteName: "もの減らし動物診断",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "もの減らし動物診断 | あなたのモノとの向き合い方を発見",
+    description:
+      "無料のもの減らし動物診断で、あなたのモノとの向き合い方を発見。12の質問に答えるだけで、あなたに合った片付け方法やミニマリズムへのアプローチがわかります。",
+    images: ["/og-image.png"],
+  },
+  metadataBase: new URL("https://minimal-diagnostic-site.netlify.app"),
   icons: {
     icon: [
       {
