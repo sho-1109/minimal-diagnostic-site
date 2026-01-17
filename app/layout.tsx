@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "もの減らし動物診断 | あなたのモノとの向き合い方を発見",
     description:
       "無料のもの減らし動物診断で、あなたのモノとの向き合い方を発見。12の質問に答えるだけで、あなたに合った片付け方法やミニマリズムへのアプローチがわかります。",
-    url: "https://minimal-diagnostic-site.netlify.app",
+    url: "https://minimal-diagnostic.netlify.app",
     siteName: "もの減らし動物診断",
     images: [
       {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
       "無料のもの減らし動物診断で、あなたのモノとの向き合い方を発見。12の質問に答えるだけで、あなたに合った片付け方法やミニマリズムへのアプローチがわかります。",
     images: ["/og-image.png"],
   },
-  metadataBase: new URL("https://minimal-diagnostic-site.netlify.app"),
+  metadataBase: new URL("https://minimal-diagnostic.netlify.app"),
   icons: {
     icon: [
       {
